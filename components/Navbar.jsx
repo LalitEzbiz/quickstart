@@ -5,7 +5,8 @@ import Link from "next/link"
 import { useAppContext } from "@/context/AppContext";
 import Image from "next/image";
 import { useClerk } from "@clerk/nextjs";
-import { UserButton } from "@clerk/nextjs/";
+import { UserButton } from "@clerk/nextjs";
+
 
 const Navbar = () => {
 
